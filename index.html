@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <img src="Leo-JPG.jpg" alt="" style="width: 100vw;"> -->
+    <div class="grid">
+        <!-- page1 -->
+        <div class="page">
+            <img src="img/1/1x/bluecolor.png" alt="" style="width: 40vw; position: absolute; left: 26.5vw; top: 10vw;">
+            <p class="title-white" style="left: 30vw; top: 12vw;">LIFE IS LIKE A BOX OF</br>CHOCOLATES</p>
+        </div>
+        <!-- page2 -->
+        <div class="page">
+
+        </div>
+        <!-- page3 -->
+        <div class="page">
+            
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    html{
+        font-size: 16px;
+    }
+    body {
+        /* width: 100%; */
+        height: auto;
+        margin: 0;
+        background-color: black;
+    }
+
+    div.grid {
+        background: rgb(255, 255, 255);
+        background-image:
+            linear-gradient(rgba(63, 137, 255, .05) 2px, transparent 0),
+            linear-gradient(90deg, rgba(63, 137, 255, .05) 2px, transparent 0);
+
+        background-size: 15px 45px, 45px 15px;
+        /* width: 100vw; */
+        height: 100%;
+        border: 2.5vw solid rgb(26, 56, 105)
+    }
+
+
+
+    /* 每一个页面的样式 */
+    div.page {
+        margin: 1px;
+        /* background-color: rgba(0, 0, 160, 0.942); */
+        height: 45vw;
+        position: relative;
+    }
+
+    p.title-white {
+        color: white;
+        font-size: 3vw;
+        font-weight: 800;
+        font-family: "Microsoft Yahei";
+        text-align: center;
+        position: absolute;
+
+    }
+
+    p.title-blue {
+        color: rgb(26, 56, 105);
+        font-size: 5vw;
+        font-weight: 600;
+        font-family: "Microsoft Yahei";
+    }
+
+    p.subtitle-blue{
+        color: rgb(19, 0, 143);
+        font-size: 3vw;
+        font-weight: bold;
+        font-family: "Microsoft Yahei";
+    }
+
+    p.text-blue {}
+
+    p.little-blue{}
+</style>
